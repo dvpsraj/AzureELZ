@@ -3,10 +3,13 @@ variable "Top_level_Mgmt" {}
 #===============================================#
 variable "Log_Subscription" {}
 variable "Log_Subscription_id" {}
+variable "Log_Subscription_name" {}
 variable "Prod_Subscription" {}
 variable "Prod_Subscription_id" {}
+variable "Prod_Subscription_name" {}
 variable "NSP_Subscription" {}
 variable "NSP_Subscription_id" {}
+variable "NSP_Subscription_name" {}
 #===============================================#
 variable "location" {}
 #===============================================#
@@ -28,7 +31,3 @@ variable "Computer_Name" {}
 variable "Admin_Username" {}
 variable "Admin_Password" {}
 #================================================#
-variable "Log_Vnet_cidr" {}
-variable "Log_Subnet_cidr" {}
-variable "NSP_Vnet_cidr" {}
-variable "NSP_Subnet_cidr" {}

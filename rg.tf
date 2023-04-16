@@ -4,7 +4,7 @@ resource "azurerm_resource_group" "log" {
   name     = lower("rg-${lower(var.Top_level_Mgmt)}-log-01")
   location = var.location
   tags = {
-    "Subscription" = var.Subscriptions[0]
+    "Subscription" = var.Log_Subscription_name
   }
   depends_on = [
     azurerm_management_group_subscription_association.subscription_to_log
@@ -17,7 +17,7 @@ resource "azurerm_resource_group" "production" {
   name     = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01") 
   location = var.location
   tags = {
-    "Subscription" = var.Subscriptions[1]
+    "Subscription" = var.Prod_Subscription_name
   }
   depends_on = [
     azurerm_management_group_subscription_association.subscription_to_production
@@ -30,7 +30,7 @@ resource "azurerm_resource_group" "nsp" {
   name     = lower("rg-${lower(var.Top_level_Mgmt)}-nsp-01")
   location = var.location
   tags = {
-    "Subscription" = var.Subscriptions[2]
+    "Subscription" = var.NSP_Subscription_name
   }
   depends_on = [
     azurerm_management_group_subscription_association.subscription_to_nsp

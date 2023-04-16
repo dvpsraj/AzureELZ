@@ -7,7 +7,7 @@ resource "azurerm_user_assigned_identity" "managed_identity" {
     azurerm_resource_group.log
   ]
   tags = {
-    "Subscription" = var.Subscriptions[0]
+    "Subscription" = var.Log_Subscription_name
   }
 }
 

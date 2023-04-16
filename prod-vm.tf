@@ -9,7 +9,7 @@ resource "azurerm_network_interface" "network_interface" {
     private_ip_address_allocation = "Dynamic"
   }
   tags = {
-    "Subscription" = var.Subscriptions[1]
+    "Subscription" = var.Prod_Subscription_name
   }
   depends_on = [
     azurerm_subnet.Production_Subnet_6
@@ -17,6 +17,7 @@ resource "azurerm_network_interface" "network_interface" {
 }
 
 resource "azurerm_virtual_machine" "virtual_machine" {
+  provider              = azurerm.Production
   name                  = "prod-vm-test"
   location              = var.location
   resource_group_name   = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01")
@@ -53,7 +54,7 @@ resource "azurerm_virtual_machine" "virtual_machine" {
   }
 
   tags = {
-    "Subscription" = var.Subscriptions[1]
+    "Subscription" = var.Prod_Subscription_name
   }
 
   depends_on = [

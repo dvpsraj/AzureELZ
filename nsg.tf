@@ -8,7 +8,7 @@ resource "azurerm_network_security_group" "Production_Sub_1_SG" {
 
 
   tags = {
-    "Subscription" = var.Subscriptions[1]
+    "Subscription" = var.Prod_Subscription_name
   }
     depends_on = [
     azurerm_virtual_network.Production_Vnet
@@ -30,7 +30,7 @@ resource "azurerm_network_security_group" "Production_Sub_2_SG" {
 
 
   tags = {
-    "Subscription" = var.Subscriptions[1]
+    "Subscription" = var.Prod_Subscription_name
   }
     depends_on = [
     azurerm_virtual_network.Production_Vnet
@@ -51,7 +51,7 @@ resource "azurerm_network_security_group" "Production_Sub_3_SG" {
 
 
   tags = {
-    "Subscription" = var.Subscriptions[1]
+    "Subscription" = var.Prod_Subscription_name
   }
     depends_on = [
     azurerm_virtual_network.Production_Vnet
@@ -71,7 +71,7 @@ resource "azurerm_network_security_group" "Production_Sub_4_SG" {
   resource_group_name = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01")
 
   tags = {
-    "Subscription" = var.Subscriptions[1]
+    "Subscription" = var.Prod_Subscription_name
   }
     depends_on = [
     azurerm_virtual_network.Production_Vnet
@@ -92,7 +92,7 @@ resource "azurerm_network_security_group" "Production_Sub_5_SG" {
 
 
   tags = {
-    "Subscription" = var.Subscriptions[1]
+    "Subscription" = var.Prod_Subscription_name
   }
     depends_on = [
     azurerm_virtual_network.Production_Vnet
@@ -113,7 +113,7 @@ resource "azurerm_network_security_group" "Production_Sub_6_SG" {
 
 
   tags = {
-    "Subscription" = var.Subscriptions[1]
+    "Subscription" = var.Prod_Subscription_name
   }
     depends_on = [
     azurerm_virtual_network.Production_Vnet

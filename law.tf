@@ -9,6 +9,6 @@ resource "azurerm_log_analytics_workspace" "log_law" {
     azurerm_resource_group.log
   ]
   tags = {
-    "Subscription" = var.Subscriptions[0]
+    "Subscription" = var.Log_Subscription_name
   }
 }
