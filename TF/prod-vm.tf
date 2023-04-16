@@ -1,4 +1,5 @@
 resource "azurerm_network_interface" "network_interface" {
+  provider            = azurerm.Production
   name                = lower("${lower(var.Top_level_Mgmt)}-prod-vm-test-interface")
   location            = var.location
   resource_group_name = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01")
