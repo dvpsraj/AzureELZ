@@ -26,13 +26,13 @@ Computer_Name = "hostname"
 Admin_Username = "demo"
 Admin_Password = "India@123456789"
 
-Prod_Vnet_cidr    = ["10.190.56.0/21"]
-Prod_Subnet1_cidr = ["10.190.56.0/24"]
-Prod_Subnet2_cidr = ["10.190.57.0/24"]
-Prod_Subnet3_cidr = ["10.190.58.0/24"]
-Prod_Subnet4_cidr = ["10.190.59.0/24"]
-Prod_Subnet5_cidr = ["10.190.60.0/24"]
-Prod_Subnet6_cidr = ["10.190.61.0/24"]
+Prod_Vnet_cidr    = ["10.190.192.0/21"]
+Prod_Subnet1_cidr = ["10.190.192.0/24"]
+Prod_Subnet2_cidr = ["10.190.193.0/24"]
+Prod_Subnet3_cidr = ["10.190.194.0/24"]
+Prod_Subnet4_cidr = ["10.190.195.0/24"]
+Prod_Subnet5_cidr = ["10.190.196.0/24"]
+Prod_Subnet6_cidr = ["10.190.197.0/24"]
 #===============================================================##===============================================================#
 #Accespolicies
 tenantId = "53bef31d-8669-4ee7-89a8-364f0658e942"
