@@ -18,6 +18,7 @@ resource "azurerm_network_security_group" "Production_Sub_1_SG" {
 
 
 resource "azurerm_subnet_network_security_group_association" "subnet_nsg_association_1" {
+  provider                  = azurerm.Production
   subnet_id                 = azurerm_subnet.Production_Subnet_1.id   
   network_security_group_id = azurerm_network_security_group.Production_Sub_1_SG.id
 }
@@ -40,6 +41,7 @@ resource "azurerm_network_security_group" "Production_Sub_2_SG" {
 }
 
 resource "azurerm_subnet_network_security_group_association" "subnet_nsg_association_2" {
+  provider                  = azurerm.Production
   subnet_id                 = azurerm_subnet.Production_Subnet_2.id   
   network_security_group_id = azurerm_network_security_group.Production_Sub_2_SG.id
 }
@@ -62,6 +64,7 @@ resource "azurerm_network_security_group" "Production_Sub_3_SG" {
 }
 
 resource "azurerm_subnet_network_security_group_association" "subnet_nsg_association_3" {
+  provider                  = azurerm.Production
   subnet_id                 = azurerm_subnet.Production_Subnet_3.id   
   network_security_group_id = azurerm_network_security_group.Production_Sub_3_SG.id
 }
@@ -83,6 +86,7 @@ resource "azurerm_network_security_group" "Production_Sub_4_SG" {
 }
 
 resource "azurerm_subnet_network_security_group_association" "subnet_nsg_association_4" {
+  provider                  = azurerm.Production
   subnet_id                 = azurerm_subnet.Production_Subnet_4.id   
   network_security_group_id = azurerm_network_security_group.Production_Sub_4_SG.id
 }
@@ -105,6 +109,7 @@ resource "azurerm_network_security_group" "Production_Sub_5_SG" {
 }
 
 resource "azurerm_subnet_network_security_group_association" "subnet_nsg_association_5" {
+  provider                  = azurerm.Production
   subnet_id                 = azurerm_subnet.Production_Subnet_5.id   
   network_security_group_id = azurerm_network_security_group.Production_Sub_5_SG.id
 }
@@ -127,6 +132,7 @@ resource "azurerm_network_security_group" "Production_Sub_6_SG" {
 }
 
 resource "azurerm_subnet_network_security_group_association" "subnet_nsg_association_6" {
+  provider                  = azurerm.Production
   subnet_id                 = azurerm_subnet.Production_Subnet_6.id   
   network_security_group_id = azurerm_network_security_group.Production_Sub_6_SG.id
 }
