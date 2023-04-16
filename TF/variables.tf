@@ -16,7 +16,7 @@ variable "location" {}
 variable "tenantId" {}
 variable "objectId" {}
 #================================================#
-variable "Subscriptions" {}
+# variable "Subscriptions" {}
 #================================================#
 variable "Prod_Vnet_cidr" {}
 variable "Prod_Subnet1_cidr" {}
