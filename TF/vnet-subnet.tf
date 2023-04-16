@@ -1,5 +1,6 @@
 # Create a virtual network within the resource group
 resource "azurerm_virtual_network" "Production_Vnet" {
+  provider             = azurerm.Production
   name                = lower("vnet-${lower(var.Top_level_Mgmt)}-prod-01")
   resource_group_name = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01")
   location            = var.location
@@ -11,6 +12,7 @@ resource "azurerm_virtual_network" "Production_Vnet" {
 
 # Create a public subnets within the vnet and rg
 resource "azurerm_subnet" "Production_Subnet_1" {
+  provider             = azurerm.Production
   name                 = lower("snet-${lower(var.Top_level_Mgmt)}-prod-identity-01")
   resource_group_name  = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01")
   virtual_network_name = lower("vnet-${lower(var.Top_level_Mgmt)}-prod-01")
@@ -21,6 +23,7 @@ resource "azurerm_subnet" "Production_Subnet_1" {
 }
 
 resource "azurerm_subnet" "Production_Subnet_2" {
+  provider             = azurerm.Production
   name                 = lower("snet-${lower(var.Top_level_Mgmt)}-prod-shared-01")
   resource_group_name  = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01")
   virtual_network_name = lower("vnet-${lower(var.Top_level_Mgmt)}-prod-01")
@@ -32,6 +35,7 @@ resource "azurerm_subnet" "Production_Subnet_2" {
 }
 
 resource "azurerm_subnet" "Production_Subnet_3" {
+  provider             = azurerm.Production
   name                 = lower("snet-${lower(var.Top_level_Mgmt)}-prod-lb-01")
   resource_group_name  = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01")
   virtual_network_name = lower("vnet-${lower(var.Top_level_Mgmt)}-prod-01")
@@ -43,6 +47,7 @@ resource "azurerm_subnet" "Production_Subnet_3" {
 }
 
 resource "azurerm_subnet" "Production_Subnet_4" {
+  provider             = azurerm.Production
   name                 = lower("snet-${lower(var.Top_level_Mgmt)}-prod-web-01")
   resource_group_name  = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01")
   virtual_network_name = lower("vnet-${lower(var.Top_level_Mgmt)}-prod-01")
@@ -54,6 +59,7 @@ resource "azurerm_subnet" "Production_Subnet_4" {
 }
 
 resource "azurerm_subnet" "Production_Subnet_5" {
+  provider             = azurerm.Production
   name                 = lower("snet-${lower(var.Top_level_Mgmt)}-prod-app1-01")
   resource_group_name  = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01")
   virtual_network_name = lower("vnet-${lower(var.Top_level_Mgmt)}-prod-01")
@@ -65,6 +71,7 @@ resource "azurerm_subnet" "Production_Subnet_5" {
 }
 
 resource "azurerm_subnet" "Production_Subnet_6" {
+  provider             = azurerm.Production
   name                 = lower("snet-${lower(var.Top_level_Mgmt)}-prod-db-01")
   resource_group_name  = lower("rg-${lower(var.Top_level_Mgmt)}-prod-01")
   virtual_network_name = lower("vnet-${lower(var.Top_level_Mgmt)}-prod-01")
