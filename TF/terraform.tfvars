@@ -6,16 +6,16 @@ Top_level_Mgmt = "MTT"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "64bbfe02-e37c-41e9-8cff-f2bb7ca6ccbf"
-Log_Subscription       = "/subscriptions/64bbfe02-e37c-41e9-8cff-f2bb7ca6ccbf"
+Log_Subscription_id    = "9cb063d7-51a2-472e-8d2b-c3172b31ee01"
+Log_Subscription       = "/subscriptions/9cb063d7-51a2-472e-8d2b-c3172b31ee01"
 Log_Subscription_name = "sub-mtt-log-01"
 
-Prod_Subscription_id   = "a7b27d18-7c45-41c2-a63e-2f0f32d4d80f"
-Prod_Subscription      = "/subscriptions/a7b27d18-7c45-41c2-a63e-2f0f32d4d80f"
+Prod_Subscription_id   = "29ca3ea5-80ef-4a8a-a78b-31b45b5719a1"
+Prod_Subscription      = "/subscriptions/29ca3ea5-80ef-4a8a-a78b-31b45b5719a1"
 Prod_Subscription_name = "sub-mtt-prod-01"
 
-NSP_Subscription_id    = "71ca792e-322d-49f5-a8b8-a53c6f728e0e"
-NSP_Subscription       = "/subscriptions/71ca792e-322d-49f5-a8b8-a53c6f728e0e"
+NSP_Subscription_id    = "6c58aeae-24a3-47ac-b5c1-869b06def3e3"
+NSP_Subscription       = "/subscriptions/6c58aeae-24a3-47ac-b5c1-869b06def3e3"
 NSP_Subscription_name  = "sub-mtt-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
