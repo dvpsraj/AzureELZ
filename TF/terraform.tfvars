@@ -24,7 +24,7 @@ NSP_Subscription_name  = "sub-mtt-nsp-01"
 VM_Size = "Standard_B2s"
 Computer_Name = "hostname"
 Admin_Username = "demo"
-Admin_Password = "India@123456789"
+Admin_Password = "Mtt@123456789"
 
 Prod_Vnet_cidr    = ["10.190.192.0/21"]
 Prod_Subnet1_cidr = ["10.190.192.0/24"]
