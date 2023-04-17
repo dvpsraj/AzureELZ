@@ -13,8 +13,8 @@ variable "NSP_Subscription_name" {}
 #===============================================#
 variable "location" {}
 #===============================================#
-variable "tenantId" {}
-variable "objectId" {}
+# variable "tenantId" {}
+# variable "objectId" {}
 #================================================#
 # variable "Subscriptions" {}
 #================================================#
