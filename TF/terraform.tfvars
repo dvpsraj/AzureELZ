@@ -1,22 +1,22 @@
 #===============================================================##===============================================================#
 #Managment Group Names
-Top_level_Mgmt = "SLRB"
+Top_level_Mgmt = "MOJ"
 #===============================================================#
 #Location Name
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "1c799232-ff7f-453f-8749-4827c926c34d"
-Log_Subscription       = "/subscriptions/1c799232-ff7f-453f-8749-4827c926c34d"
-Log_Subscription_name = "sub-slrb-log-01"
+Log_Subscription_id    = "41b86ac2-93d6-4738-890e-4e08e910b03f"
+Log_Subscription       = "/subscriptions/41b86ac2-93d6-4738-890e-4e08e910b03f"
+Log_Subscription_name = "sub-moj-log-01"
 
-Prod_Subscription_id   = "ac525fd7-2299-4b59-94cc-7a9318e89c15"
-Prod_Subscription      = "/subscriptions/ac525fd7-2299-4b59-94cc-7a9318e89c15"
-Prod_Subscription_name = "sub-slrb-prod-01"
+Prod_Subscription_id   = "5bdecb85-31e8-4de8-8955-3ac98c32bb46"
+Prod_Subscription      = "/subscriptions/5bdecb85-31e8-4de8-8955-3ac98c32bb46"
+Prod_Subscription_name = "sub-moj-prod-01"
 
-NSP_Subscription_id    = "079cedd0-7285-4ce4-bb9f-950113d6e7f2"
-NSP_Subscription       = "/subscriptions/079cedd0-7285-4ce4-bb9f-950113d6e7f2"
-NSP_Subscription_name  = "sub-slrb-nsp-01"
+NSP_Subscription_id    = "5a9abd0d-9b0b-4e2d-8e72-1de088c97e35"
+NSP_Subscription       = "/subscriptions/5a9abd0d-9b0b-4e2d-8e72-1de088c97e35"
+NSP_Subscription_name  = "sub-moj-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
 #===============================================================##===============================================================#
@@ -26,13 +26,13 @@ Computer_Name = "hostname"
 Admin_Username = "lcadmin"
 Admin_Password = "Qwerty@12345"
 
-Prod_Vnet_cidr    = ["10.191.48.0/21"]
-Prod_Subnet1_cidr = ["10.191.48.0/24"]
-Prod_Subnet2_cidr = ["10.191.49.0/24"]
-Prod_Subnet3_cidr = ["10.191.50.0/24"]
-Prod_Subnet4_cidr = ["10.191.51.0/24"]
-Prod_Subnet5_cidr = ["10.191.52.0/24"]
-Prod_Subnet6_cidr = ["10.191.53.0/24"]
+Prod_Vnet_cidr    = ["10.190.168.0/21"]
+Prod_Subnet1_cidr = ["10.190.168.0/24"]
+Prod_Subnet2_cidr = ["10.190.169.0/24"]
+Prod_Subnet3_cidr = ["10.190.170.0/24"]
+Prod_Subnet4_cidr = ["10.190.171.0/24"]
+Prod_Subnet5_cidr = ["10.190.172.0/24"]
+Prod_Subnet6_cidr = ["10.190.173.0/24"]
 #===============================================================##===============================================================#
 #===============================================================##===============================================================#
 # Subscriptions = ["Log", "Production", "NSP"]
