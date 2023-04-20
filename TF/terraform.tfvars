@@ -6,16 +6,16 @@ Top_level_Mgmt = "SLRB"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "d91f246f-7064-402a-afe7-53c2153a634d"
-Log_Subscription       = "/subscriptions/d91f246f-7064-402a-afe7-53c2153a634d"
+Log_Subscription_id    = "1c799232-ff7f-453f-8749-4827c926c34d"
+Log_Subscription       = "/subscriptions/1c799232-ff7f-453f-8749-4827c926c34d"
 Log_Subscription_name = "sub-slrb-log-01"
 
-Prod_Subscription_id   = "c50b8aaf-6586-475b-bdf1-d7de1504029e"
-Prod_Subscription      = "/subscriptions/c50b8aaf-6586-475b-bdf1-d7de1504029e"
+Prod_Subscription_id   = "ac525fd7-2299-4b59-94cc-7a9318e89c15"
+Prod_Subscription      = "/subscriptions/ac525fd7-2299-4b59-94cc-7a9318e89c15"
 Prod_Subscription_name = "sub-slrb-prod-01"
 
-NSP_Subscription_id    = "b2544be4-967e-4dc7-bb59-34b05c5df8bd"
-NSP_Subscription       = "/subscriptions/b2544be4-967e-4dc7-bb59-34b05c5df8bd"
+NSP_Subscription_id    = "079cedd0-7285-4ce4-bb9f-950113d6e7f2"
+NSP_Subscription       = "/subscriptions/079cedd0-7285-4ce4-bb9f-950113d6e7f2"
 NSP_Subscription_name  = "sub-slrb-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
