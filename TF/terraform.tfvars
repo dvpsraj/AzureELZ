@@ -6,16 +6,16 @@ Top_level_Mgmt = "SC"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "d932bddd-8b06-4780-a9f3-0b73905989cd"
-Log_Subscription       = "/subscriptions/d932bddd-8b06-4780-a9f3-0b73905989cd"
+Log_Subscription_id    = "6e942a4a-cf1e-41c9-accf-b33b80413b0d"
+Log_Subscription       = "/subscriptions/6e942a4a-cf1e-41c9-accf-b33b80413b0d"
 Log_Subscription_name = "sub-sc-log-01"
 
-Prod_Subscription_id   = "7193e713-bd8a-4116-b0a8-8d065f9be4ce"
-Prod_Subscription      = "/subscriptions/7193e713-bd8a-4116-b0a8-8d065f9be4ce"
+Prod_Subscription_id   = "023e5dc6-c4a8-474f-9f15-4b205c814574"
+Prod_Subscription      = "/subscriptions/023e5dc6-c4a8-474f-9f15-4b205c814574"
 Prod_Subscription_name = "sub-sc-prod-01"
 
-NSP_Subscription_id    = "0ce098e5-0737-41c2-9176-ec7e62fc43fe"
-NSP_Subscription       = "/subscriptions/0ce098e5-0737-41c2-9176-ec7e62fc43fe"
+NSP_Subscription_id    = "8ae1369e-0424-4b4f-909f-a0c7695e0e8d"
+NSP_Subscription       = "/subscriptions/8ae1369e-0424-4b4f-909f-a0c7695e0e8d"
 NSP_Subscription_name  = "sub-sc-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
