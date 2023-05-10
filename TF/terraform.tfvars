@@ -1,6 +1,6 @@
 #===============================================================##===============================================================#
 #Managment Group Names
-Top_level_Mgmt = "MSCA"
+Top_level_Mgmt = "SC"
 #===============================================================#
 #Location Name
 location = "northeurope"
@@ -8,15 +8,15 @@ location = "northeurope"
 #Subscription_id for each managemnt group
 Log_Subscription_id    = "d932bddd-8b06-4780-a9f3-0b73905989cd"
 Log_Subscription       = "/subscriptions/d932bddd-8b06-4780-a9f3-0b73905989cd"
-Log_Subscription_name = "sub-msca-log-01"
+Log_Subscription_name = "sub-sc-log-01"
 
 Prod_Subscription_id   = "7193e713-bd8a-4116-b0a8-8d065f9be4ce"
 Prod_Subscription      = "/subscriptions/7193e713-bd8a-4116-b0a8-8d065f9be4ce"
-Prod_Subscription_name = "sub-msca-prod-01"
+Prod_Subscription_name = "sub-sc-prod-01"
 
 NSP_Subscription_id    = "0ce098e5-0737-41c2-9176-ec7e62fc43fe"
 NSP_Subscription       = "/subscriptions/0ce098e5-0737-41c2-9176-ec7e62fc43fe"
-NSP_Subscription_name  = "sub-msca-nsp-01"
+NSP_Subscription_name  = "sub-sc-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
 #===============================================================##===============================================================#
