@@ -6,16 +6,16 @@ Top_level_Mgmt = "NHRA"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "6e942a4a-cf1e-41c9-accf-b33b80413b0d"
-Log_Subscription       = "/subscriptions/6e942a4a-cf1e-41c9-accf-b33b80413b0d"
+Log_Subscription_id    = "1f24482e-3175-4e10-9ac3-1101227b9302"
+Log_Subscription       = "/subscriptions/1f24482e-3175-4e10-9ac3-1101227b9302"
 Log_Subscription_name = "sub-nhra-log-01"
 
-Prod_Subscription_id   = "023e5dc6-c4a8-474f-9f15-4b205c814574"
-Prod_Subscription      = "/subscriptions/023e5dc6-c4a8-474f-9f15-4b205c814574"
+Prod_Subscription_id   = "0299075a-9979-4bd8-907e-9283eec5a902"
+Prod_Subscription      = "/subscriptions/0299075a-9979-4bd8-907e-9283eec5a902"
 Prod_Subscription_name = "sub-nhra-prod-01"
 
-NSP_Subscription_id    = "8ae1369e-0424-4b4f-909f-a0c7695e0e8d"
-NSP_Subscription       = "/subscriptions/8ae1369e-0424-4b4f-909f-a0c7695e0e8d"
+NSP_Subscription_id    = "0f74faff-67dc-4c0f-8f21-d946cc82b5ff"
+NSP_Subscription       = "/subscriptions/0f74faff-67dc-4c0f-8f21-d946cc82b5ff"
 NSP_Subscription_name  = "sub-nhra-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
