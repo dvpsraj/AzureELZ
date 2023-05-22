@@ -6,16 +6,16 @@ Top_level_Mgmt = "SJC"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "1f24482e-3175-4e10-9ac3-1101227b9302"
-Log_Subscription       = "/subscriptions/1f24482e-3175-4e10-9ac3-1101227b9302"
+Log_Subscription_id    = "1c1bfe0a-009b-4740-b0a1-02f41a156ccc"
+Log_Subscription       = "/subscriptions/1c1bfe0a-009b-4740-b0a1-02f41a156ccc"
 Log_Subscription_name = "sub-sjc-log-01"
 
-Prod_Subscription_id   = "0299075a-9979-4bd8-907e-9283eec5a902"
-Prod_Subscription      = "/subscriptions/0299075a-9979-4bd8-907e-9283eec5a902"
+Prod_Subscription_id   = "7e258e16-5e29-47b1-b755-6bf6224e21f4"
+Prod_Subscription      = "/subscriptions/7e258e16-5e29-47b1-b755-6bf6224e21f4"
 Prod_Subscription_name = "sub-sjc-prod-01"
 
-NSP_Subscription_id    = "0f74faff-67dc-4c0f-8f21-d946cc82b5ff"
-NSP_Subscription       = "/subscriptions/0f74faff-67dc-4c0f-8f21-d946cc82b5ff"
+NSP_Subscription_id    = "45076538-fb9a-41ce-9900-b32645cf9809"
+NSP_Subscription       = "/subscriptions/45076538-fb9a-41ce-9900-b32645cf9809"
 NSP_Subscription_name  = "sub-sjc-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
