@@ -16,7 +16,7 @@ Prod_Subscription_name = "sub-bipd-prod-01"
 
 NSP_Subscription_id    = "45076538-fb9a-41ce-9900-b32645cf9809"
 NSP_Subscription       = "/subscriptions/45076538-fb9a-41ce-9900-b32645cf9809"
-NSP_Subscription_name  = "sub-bips-nsp-01"
+NSP_Subscription_name  = "sub-bipd-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
 #===============================================================##===============================================================#
