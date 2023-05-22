@@ -6,16 +6,16 @@ Top_level_Mgmt = "BIPD"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "1c1bfe0a-009b-4740-b0a1-02f41a156ccc"
-Log_Subscription       = "/subscriptions/1c1bfe0a-009b-4740-b0a1-02f41a156ccc"
+Log_Subscription_id    = "a9dc946f-c4e8-4616-bdf4-ac1e27025119"
+Log_Subscription       = "/subscriptions/a9dc946f-c4e8-4616-bdf4-ac1e27025119"
 Log_Subscription_name = "sub-bipd-log-01"
 
-Prod_Subscription_id   = "7e258e16-5e29-47b1-b755-6bf6224e21f4"
-Prod_Subscription      = "/subscriptions/7e258e16-5e29-47b1-b755-6bf6224e21f4"
+Prod_Subscription_id   = "19a2d36b-6822-46da-8afc-d797b8fd4500"
+Prod_Subscription      = "/subscriptions/19a2d36b-6822-46da-8afc-d797b8fd4500"
 Prod_Subscription_name = "sub-bipd-prod-01"
 
-NSP_Subscription_id    = "45076538-fb9a-41ce-9900-b32645cf9809"
-NSP_Subscription       = "/subscriptions/45076538-fb9a-41ce-9900-b32645cf9809"
+NSP_Subscription_id    = "c49f260a-b00a-4351-bb00-7bdb84a976d7"
+NSP_Subscription       = "/subscriptions/c49f260a-b00a-4351-bb00-7bdb84a976d7"
 NSP_Subscription_name  = "sub-bipd-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
