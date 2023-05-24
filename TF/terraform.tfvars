@@ -6,16 +6,16 @@ Top_level_Mgmt = "MOIA"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "64bbfe02-e37c-41e9-8cff-f2bb7ca6ccbf"
-Log_Subscription       = "/subscriptions/64bbfe02-e37c-41e9-8cff-f2bb7ca6ccbf"
+Log_Subscription_id    = "367c61d0-a04f-4c29-bd89-75a55e1614e2"
+Log_Subscription       = "/subscriptions/367c61d0-a04f-4c29-bd89-75a55e1614e2"
 Log_Subscription_name = "sub-moia-log-01"
 
-Prod_Subscription_id   = "a7b27d18-7c45-41c2-a63e-2f0f32d4d80f"
-Prod_Subscription      = "/subscriptions/a7b27d18-7c45-41c2-a63e-2f0f32d4d80f"
+Prod_Subscription_id   = "2f98aedc-1152-4505-a835-554faf367e62"
+Prod_Subscription      = "/subscriptions/2f98aedc-1152-4505-a835-554faf367e62"
 Prod_Subscription_name = "sub-moia-prod-01"
 
-NSP_Subscription_id    = "71ca792e-322d-49f5-a8b8-a53c6f728e0e"
-NSP_Subscription       = "/subscriptions/71ca792e-322d-49f5-a8b8-a53c6f728e0e"
+NSP_Subscription_id    = "24a2c1b6-925f-4b64-9946-ae232b232c8e"
+NSP_Subscription       = "/subscriptions/24a2c1b6-925f-4b64-9946-ae232b232c8e"
 NSP_Subscription_name  = "sub-moia-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
