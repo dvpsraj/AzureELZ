@@ -6,16 +6,16 @@ Top_level_Mgmt = "LLOC"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "37b92893-032d-423f-8680-86472345cc4b"
-Log_Subscription       = "/subscriptions/37b92893-032d-423f-8680-86472345cc4b"
+Log_Subscription_id    = "e764f176-9564-4024-95c3-09b3e9acb7ee"
+Log_Subscription       = "/subscriptions/e764f176-9564-4024-95c3-09b3e9acb7ee"
 Log_Subscription_name = "sub-lloc-log-01"
 
-Prod_Subscription_id   = "aa44cf0a-1415-4db0-9a86-8a26e817eb7f"
-Prod_Subscription      = "/subscriptions/aa44cf0a-1415-4db0-9a86-8a26e817eb7f"
+Prod_Subscription_id   = "2bb9b73c-84d3-4b93-b9fc-b3985b0666c1"
+Prod_Subscription      = "/subscriptions/2bb9b73c-84d3-4b93-b9fc-b3985b0666c1"
 Prod_Subscription_name = "sub-lloc-prod-01"
 
-NSP_Subscription_id    = "30321ec9-778d-4c46-a7a7-6ab1106aa1de"
-NSP_Subscription       = "/subscriptions/30321ec9-778d-4c46-a7a7-6ab1106aa1de"
+NSP_Subscription_id    = "42ff49c9-f5c0-4b4f-8c45-0d60ad1ff5f1"
+NSP_Subscription       = "/subscriptions/42ff49c9-f5c0-4b4f-8c45-0d60ad1ff5f1"
 NSP_Subscription_name  = "sub-lloc-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
