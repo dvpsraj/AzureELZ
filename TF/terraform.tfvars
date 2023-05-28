@@ -6,16 +6,16 @@ Top_level_Mgmt = "RERA"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "0fc5976b-11f3-44b0-a66a-a60c1860cf6b"
-Log_Subscription       = "/subscriptions/0fc5976b-11f3-44b0-a66a-a60c1860cf6b"
+Log_Subscription_id    = "37b92893-032d-423f-8680-86472345cc4b"
+Log_Subscription       = "/subscriptions/37b92893-032d-423f-8680-86472345cc4b"
 Log_Subscription_name = "sub-rera-log-01"
 
-Prod_Subscription_id   = "1c22e8d5-b6ab-46e1-a00a-6191334c62ff"
-Prod_Subscription      = "/subscriptions/1c22e8d5-b6ab-46e1-a00a-6191334c62ff"
+Prod_Subscription_id   = "aa44cf0a-1415-4db0-9a86-8a26e817eb7f"
+Prod_Subscription      = "/subscriptions/aa44cf0a-1415-4db0-9a86-8a26e817eb7f"
 Prod_Subscription_name = "sub-rera-prod-01"
 
-NSP_Subscription_id    = "24074f05-fce5-4587-acf1-312a6012eb34"
-NSP_Subscription       = "/subscriptions/24074f05-fce5-4587-acf1-312a6012eb34"
+NSP_Subscription_id    = "30321ec9-778d-4c46-a7a7-6ab1106aa1de"
+NSP_Subscription       = "/subscriptions/30321ec9-778d-4c46-a7a7-6ab1106aa1de"
 NSP_Subscription_name  = "sub-rera-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
