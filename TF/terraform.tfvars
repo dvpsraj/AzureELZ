@@ -6,16 +6,16 @@ Top_level_Mgmt = "MOW"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "e764f176-9564-4024-95c3-09b3e9acb7ee"
-Log_Subscription       = "/subscriptions/e764f176-9564-4024-95c3-09b3e9acb7ee"
+Log_Subscription_id    = "3c77019c-ba4b-40c4-ba6a-e61f8ea3814d"
+Log_Subscription       = "/subscriptions/3c77019c-ba4b-40c4-ba6a-e61f8ea3814d"
 Log_Subscription_name = "sub-mow-log-01"
 
-Prod_Subscription_id   = "2bb9b73c-84d3-4b93-b9fc-b3985b0666c1"
-Prod_Subscription      = "/subscriptions/2bb9b73c-84d3-4b93-b9fc-b3985b0666c1"
+Prod_Subscription_id   = "499719cb-918c-442a-9acb-24c0f531b87f"
+Prod_Subscription      = "/subscriptions/499719cb-918c-442a-9acb-24c0f531b87f"
 Prod_Subscription_name = "sub-mow-prod-01"
 
-NSP_Subscription_id    = "42ff49c9-f5c0-4b4f-8c45-0d60ad1ff5f1"
-NSP_Subscription       = "/subscriptions/42ff49c9-f5c0-4b4f-8c45-0d60ad1ff5f1"
+NSP_Subscription_id    = "ad37a000-aec6-4aad-b0a1-5770333317d8"
+NSP_Subscription       = "/subscriptions/ad37a000-aec6-4aad-b0a1-5770333317d8"
 NSP_Subscription_name  = "sub-mow-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
