@@ -6,16 +6,16 @@ Top_level_Mgmt = "MOIC"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "c218228d-e054-4765-9a3c-4a3b2622d1e5"
-Log_Subscription       = "/subscriptions/c218228d-e054-4765-9a3c-4a3b2622d1e5"
+Log_Subscription_id    = "ca36315d-5e24-4db5-99bb-ce6ffabe7e29"
+Log_Subscription       = "/subscriptions/ca36315d-5e24-4db5-99bb-ce6ffabe7e29"
 Log_Subscription_name = "sub-moic-log-01"
 
-Prod_Subscription_id   = "98338db8-06fc-47cf-ab5c-e4dbf319066f"
-Prod_Subscription      = "/subscriptions/98338db8-06fc-47cf-ab5c-e4dbf319066f"
+Prod_Subscription_id   = "937c8302-2039-4156-b04a-4103c5e04527"
+Prod_Subscription      = "/subscriptions/937c8302-2039-4156-b04a-4103c5e04527"
 Prod_Subscription_name = "sub-moic-prod-01"
 
-NSP_Subscription_id    = "bce23e88-0c95-497c-8538-7b8272b2a17e"
-NSP_Subscription       = "/subscriptions/bce23e88-0c95-497c-8538-7b8272b2a17e"
+NSP_Subscription_id    = "050d4487-1653-4575-bf70-dfca3ce88fe8"
+NSP_Subscription       = "/subscriptions/050d4487-1653-4575-bf70-dfca3ce88fe8"
 NSP_Subscription_name  = "sub-moic-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
