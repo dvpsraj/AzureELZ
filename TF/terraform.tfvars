@@ -6,16 +6,16 @@ Top_level_Mgmt = "TB"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "3c77019c-ba4b-40c4-ba6a-e61f8ea3814d"
-Log_Subscription       = "/subscriptions/3c77019c-ba4b-40c4-ba6a-e61f8ea3814d"
+Log_Subscription_id    = "2ee9dd2b-174f-4f12-8c59-9c960e31601a"
+Log_Subscription       = "/subscriptions/2ee9dd2b-174f-4f12-8c59-9c960e31601a"
 Log_Subscription_name = "sub-tb-log-01"
 
-Prod_Subscription_id   = "499719cb-918c-442a-9acb-24c0f531b87f"
-Prod_Subscription      = "/subscriptions/499719cb-918c-442a-9acb-24c0f531b87f"
+Prod_Subscription_id   = "c9505264-f47b-451f-aad0-125ac581a19b"
+Prod_Subscription      = "/subscriptions/c9505264-f47b-451f-aad0-125ac581a19b"
 Prod_Subscription_name = "sub-tb-prod-01"
 
-NSP_Subscription_id    = "ad37a000-aec6-4aad-b0a1-5770333317d8"
-NSP_Subscription       = "/subscriptions/ad37a000-aec6-4aad-b0a1-5770333317d8"
+NSP_Subscription_id    = "fb89c23e-d472-4f23-b020-2ec15cad3ab0"
+NSP_Subscription       = "/subscriptions/fb89c23e-d472-4f23-b020-2ec15cad3ab0"
 NSP_Subscription_name  = "sub-tb-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
