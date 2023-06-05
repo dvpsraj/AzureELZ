@@ -6,16 +6,16 @@ Top_level_Mgmt = "MOFNE"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "51ad98be-d3d6-485a-834b-93de1efad9be"
-Log_Subscription       = "/subscriptions/51ad98be-d3d6-485a-834b-93de1efad9be"
+Log_Subscription_id    = "d5adc741-8350-4308-ac20-b9abf464c291"
+Log_Subscription       = "/subscriptions/d5adc741-8350-4308-ac20-b9abf464c291"
 Log_Subscription_name = "sub-mofne-log-01"
 
-Prod_Subscription_id   = "1b4d5dc9-364d-417e-8476-f30437d99da6"
-Prod_Subscription      = "/subscriptions/1b4d5dc9-364d-417e-8476-f30437d99da6"
+Prod_Subscription_id   = "2af2c4a8-0d61-4290-b8af-b3c121f5045e"
+Prod_Subscription      = "/subscriptions/2af2c4a8-0d61-4290-b8af-b3c121f5045e"
 Prod_Subscription_name = "sub-mofne-prod-01"
 
-NSP_Subscription_id    = "82b540ee-27fa-4807-b6a1-d5a058c60771"
-NSP_Subscription       = "/subscriptions/82b540ee-27fa-4807-b6a1-d5a058c60771"
+NSP_Subscription_id    = "9b6ab21c-2591-4da1-81f8-4fd48245ab66"
+NSP_Subscription       = "/subscriptions/9b6ab21c-2591-4da1-81f8-4fd48245ab66"
 NSP_Subscription_name  = "sub-mofne-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
