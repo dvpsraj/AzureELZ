@@ -6,16 +6,16 @@ Top_level_Mgmt = "MOFA"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "d5adc741-8350-4308-ac20-b9abf464c291"
-Log_Subscription       = "/subscriptions/d5adc741-8350-4308-ac20-b9abf464c291"
+Log_Subscription_id    = "3153ab2b-0932-49ae-b6fe-e68e5acfeb25"
+Log_Subscription       = "/subscriptions/3153ab2b-0932-49ae-b6fe-e68e5acfeb25"
 Log_Subscription_name = "sub-mofa-log-01"
 
-Prod_Subscription_id   = "2af2c4a8-0d61-4290-b8af-b3c121f5045e"
-Prod_Subscription      = "/subscriptions/2af2c4a8-0d61-4290-b8af-b3c121f5045e"
+Prod_Subscription_id   = "aa68d41a-53ed-4527-be04-08664b2ea66a"
+Prod_Subscription      = "/subscriptions/aa68d41a-53ed-4527-be04-08664b2ea66a"
 Prod_Subscription_name = "sub-mofa-prod-01"
 
-NSP_Subscription_id    = "9b6ab21c-2591-4da1-81f8-4fd48245ab66"
-NSP_Subscription       = "/subscriptions/9b6ab21c-2591-4da1-81f8-4fd48245ab66"
+NSP_Subscription_id    = "e4f71387-a53c-4d03-aad5-598ccfe22c95"
+NSP_Subscription       = "/subscriptions/e4f71387-a53c-4d03-aad5-598ccfe22c95"
 NSP_Subscription_name  = "sub-mofa-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
