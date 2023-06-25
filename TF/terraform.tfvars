@@ -6,16 +6,16 @@ Top_level_Mgmt = "GH"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "3a4b4a10-354f-4f76-9aa6-da9852bd6032"
-Log_Subscription       = "/subscriptions/3a4b4a10-354f-4f76-9aa6-da9852bd6032"
+Log_Subscription_id    = "cc894057-dfe5-4983-9fb7-2cb7be062030"
+Log_Subscription       = "/subscriptions/cc894057-dfe5-4983-9fb7-2cb7be062030"
 Log_Subscription_name = "sub-gh-log-01"
 
-Prod_Subscription_id   = "4bcb1fdd-96e5-4490-a48a-a6dfeab96f85"
-Prod_Subscription      = "/subscriptions/4bcb1fdd-96e5-4490-a48a-a6dfeab96f85"
+Prod_Subscription_id   = "f74b3918-f4ca-4382-82b5-b51851bec20e"
+Prod_Subscription      = "/subscriptions/f74b3918-f4ca-4382-82b5-b51851bec20e"
 Prod_Subscription_name = "sub-gh-prod-01"
 
-NSP_Subscription_id    = "1db1e19c-d20e-4c1a-9269-d23b039d610d"
-NSP_Subscription       = "/subscriptions/1db1e19c-d20e-4c1a-9269-d23b039d610d"
+NSP_Subscription_id    = "00225fde-574d-4229-8419-10dfc952aa9c"
+NSP_Subscription       = "/subscriptions/00225fde-574d-4229-8419-10dfc952aa9c"
 NSP_Subscription_name  = "sub-gh-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
