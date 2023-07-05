@@ -6,16 +6,16 @@ Top_level_Mgmt = "BACA_AZMG"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "cc894057-dfe5-4983-9fb7-2cb7be062030"
-Log_Subscription       = "/subscriptions/cc894057-dfe5-4983-9fb7-2cb7be062030"
+Log_Subscription_id    = "1b625048-254e-4f6a-88d0-fb9eb27c7aaf"
+Log_Subscription       = "/subscriptions/1b625048-254e-4f6a-88d0-fb9eb27c7aaf"
 Log_Subscription_name = "sub-baca-log-01"
 
-Prod_Subscription_id   = "f74b3918-f4ca-4382-82b5-b51851bec20e"
-Prod_Subscription      = "/subscriptions/f74b3918-f4ca-4382-82b5-b51851bec20e"
+Prod_Subscription_id   = "a5c21768-d66b-4219-b1e8-bc36763944a7"
+Prod_Subscription      = "/subscriptions/a5c21768-d66b-4219-b1e8-bc36763944a7"
 Prod_Subscription_name = "sub-baca-prod-01"
 
-NSP_Subscription_id    = "00225fde-574d-4229-8419-10dfc952aa9c"
-NSP_Subscription       = "/subscriptions/00225fde-574d-4229-8419-10dfc952aa9c"
+NSP_Subscription_id    = "d651db13-63ab-4ea5-8ff8-3fb2d943c435"
+NSP_Subscription       = "/subscriptions/d651db13-63ab-4ea5-8ff8-3fb2d943c435"
 NSP_Subscription_name  = "sub-baca-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
