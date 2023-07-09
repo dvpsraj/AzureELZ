@@ -1,22 +1,22 @@
 #===============================================================##===============================================================#
 #Managment Group Names
-Top_level_Mgmt = "MIA"
+Top_level_Mgmt = "NSSA"
 #===============================================================#
 #Location Name
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "16527adc-b786-4c05-acf2-ad0522335da6"
-Log_Subscription       = "/subscriptions/16527adc-b786-4c05-acf2-ad0522335da6"
-Log_Subscription_name = "sub-mia-log-01"
+Log_Subscription_id    = "d8b6e765-1210-4748-87c2-d849ff7b7345"
+Log_Subscription       = "/subscriptions/d8b6e765-1210-4748-87c2-d849ff7b7345"
+Log_Subscription_name = "sub-nssa-log-01"
 
-Prod_Subscription_id   = "f745206d-7826-4fa4-9b77-1262c87cb9f6"
-Prod_Subscription      = "/subscriptions/f745206d-7826-4fa4-9b77-1262c87cb9f6"
-Prod_Subscription_name = "sub-mia-prod-01"
+Prod_Subscription_id   = "3800f91b-5695-426f-a2e0-a02089674062"
+Prod_Subscription      = "/subscriptions/3800f91b-5695-426f-a2e0-a02089674062"
+Prod_Subscription_name = "sub-nssa-prod-01"
 
-NSP_Subscription_id    = "36b44d0d-0bfc-4c33-9a25-7289ce0c9c72"
-NSP_Subscription       = "/subscriptions/36b44d0d-0bfc-4c33-9a25-7289ce0c9c72"
-NSP_Subscription_name  = "sub-mia-nsp-01"
+NSP_Subscription_id    = "82da66d1-a987-4806-8024-21756236f160"
+NSP_Subscription       = "/subscriptions/82da66d1-a987-4806-8024-21756236f160"
+NSP_Subscription_name  = "sub-nssa-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
 #===============================================================##===============================================================#
