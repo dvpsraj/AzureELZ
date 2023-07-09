@@ -42,3 +42,4 @@ The Enterprise-Scale architecture provides prescriptive guidance coupled with Az
 |9   | Landing Zone  |Creates Virtual Network and Subnets for deploying the Landing zone Workloads  |Terraform |<img width="50" alt="image" src="https://raw.githubusercontent.com/sreekumarpg/AzureELZ/main/ARM/Terraform.jpg"/>|
 |10  | Workloads  |Build Windows Server in Landing zone infrastructure  |Terraform |<img width="50" alt="image" src="https://raw.githubusercontent.com/sreekumarpg/AzureELZ/main/ARM/Terraform.jpg"/>|
 |11  | Azure Bastion  |Deploy Azure Bastion to connect to a virtual machine through Azure portal  |Manual |
+|12  | Create Instance for Reservation  | Create Instance for Reservation in NSP Subscription |ARM Template|[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdvpsraj%2FAzureELZ%2Fmain%2FARM%2Fnsp.json)|
