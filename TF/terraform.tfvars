@@ -26,13 +26,13 @@ Computer_Name = "hostname"
 Admin_Username = "lcadmin"
 Admin_Password = "Qwerty@12345"
 
-Prod_Vnet_cidr    = ["10.190.152.0/21"]
-Prod_Subnet1_cidr = ["10.190.152.0/24"]
-Prod_Subnet2_cidr = ["10.190.153.0/24"]
-Prod_Subnet3_cidr = ["10.190.154.0/24"]
-Prod_Subnet4_cidr = ["10.190.155.0/24"]
-Prod_Subnet5_cidr = ["10.190.156.0/24"]
-Prod_Subnet6_cidr = ["10.190.157.0/24"]
+Prod_Vnet_cidr    = ["10.190.248.0/21"]
+Prod_Subnet1_cidr = ["10.190.248.0/24"]
+Prod_Subnet2_cidr = ["10.190.249.0/24"]
+Prod_Subnet3_cidr = ["10.190.250.0/24"]
+Prod_Subnet4_cidr = ["10.190.251.0/24"]
+Prod_Subnet5_cidr = ["10.190.252.0/24"]
+Prod_Subnet6_cidr = ["10.190.253.0/24"]
 #===============================================================##===============================================================#
 #===============================================================##===============================================================#
 # Subscriptions = ["Log", "Production", "NSP"]
