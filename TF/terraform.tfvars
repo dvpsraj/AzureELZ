@@ -6,16 +6,16 @@ Top_level_Mgmt = "GP"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "d8b6e765-1210-4748-87c2-d849ff7b7345"
-Log_Subscription       = "/subscriptions/d8b6e765-1210-4748-87c2-d849ff7b7345"
+Log_Subscription_id    = "e6bdc4f5-7264-4716-b30a-f1f4ed7f60dd"
+Log_Subscription       = "/subscriptions/e6bdc4f5-7264-4716-b30a-f1f4ed7f60dd"
 Log_Subscription_name = "sub-gp-log-01"
 
-Prod_Subscription_id   = "3800f91b-5695-426f-a2e0-a02089674062"
-Prod_Subscription      = "/subscriptions/3800f91b-5695-426f-a2e0-a02089674062"
+Prod_Subscription_id   = "95347bcf-1cd8-4835-8ca8-417de8fce917"
+Prod_Subscription      = "/subscriptions/95347bcf-1cd8-4835-8ca8-417de8fce917"
 Prod_Subscription_name = "sub-gp-prod-01"
 
-NSP_Subscription_id    = "82da66d1-a987-4806-8024-21756236f160"
-NSP_Subscription       = "/subscriptions/82da66d1-a987-4806-8024-21756236f160"
+NSP_Subscription_id    = "9f41a07c-8dd3-4d92-be8b-a08860ef5c9a"
+NSP_Subscription       = "/subscriptions/9f41a07c-8dd3-4d92-be8b-a08860ef5c9a"
 NSP_Subscription_name  = "sub-gp-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
