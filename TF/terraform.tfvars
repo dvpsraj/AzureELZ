@@ -1,22 +1,22 @@
 #===============================================================##===============================================================#
 #Managment Group Names
-Top_level_Mgmt = "KSRO"
+Top_level_Mgmt = "Root Management Group"
 #===============================================================#
 #Location Name
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "96ded2d5-688c-473b-8944-d37c429c1aa6"
-Log_Subscription       = "/subscriptions/96ded2d5-688c-473b-8944-d37c429c1aa6"
-Log_Subscription_name = "sub-ksro-log-01"
+Log_Subscription_id    = "100a6d98-2fd6-4e7f-9034-df22b4b01d14"
+Log_Subscription       = "/subscriptions/100a6d98-2fd6-4e7f-9034-df22b4b01d14"
+Log_Subscription_name = "sub-sample-log-01"
 
 Prod_Subscription_id   = "e78edf38-5a56-4393-8530-b57b93794d2f"
 Prod_Subscription      = "/subscriptions/e78edf38-5a56-4393-8530-b57b93794d2f"
-Prod_Subscription_name = "sub-ksro-prod-01"
+Prod_Subscription_name = "sub-sample-prod-01"
 
 NSP_Subscription_id    = "f14e2590-e67b-49ba-92da-2218f830834f"
 NSP_Subscription       = "/subscriptions/f14e2590-e67b-49ba-92da-2218f830834f"
-NSP_Subscription_name  = "sub-ksro-nsp-01"
+NSP_Subscription_name  = "sub-sample-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
 #===============================================================##===============================================================#
