@@ -6,17 +6,17 @@ Top_level_Mgmt = "MLSD"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "100a6d98-2fd6-4e7f-9034-df22b4b01d14"
-Log_Subscription       = "/subscriptions/100a6d98-2fd6-4e7f-9034-df22b4b01d14"
-Log_Subscription_name = "sub-mlsd-log-01"
+Log_Subscription_id    = "2212f3f8-d4cd-4778-8204-b88f7babd7b2"
+Log_Subscription       = "/subscriptions/2212f3f8-d4cd-4778-8204-b88f7babd7b2"
+Log_Subscription_name = "sub-mosd-log-01"
 
-Prod_Subscription_id   = "e78edf38-5a56-4393-8530-b57b93794d2f"
-Prod_Subscription      = "/subscriptions/e78edf38-5a56-4393-8530-b57b93794d2f"
-Prod_Subscription_name = "sub-mlsd-prod-01"
+Prod_Subscription_id   = "e19cd8dd-11b0-4563-8fae-9cfecde15adb"
+Prod_Subscription      = "/subscriptions/e19cd8dd-11b0-4563-8fae-9cfecde15adb"
+Prod_Subscription_name = "sub-mosd-prod-01"
 
-NSP_Subscription_id    = "f14e2590-e67b-49ba-92da-2218f830834f"
-NSP_Subscription       = "/subscriptions/f14e2590-e67b-49ba-92da-2218f830834f"
-NSP_Subscription_name  = "sub-mlsd-nsp-01"
+NSP_Subscription_id    = "ff16636b-b152-484b-99a0-9b7688d68827"
+NSP_Subscription       = "/subscriptions/ff16636b-b152-484b-99a0-9b7688d68827"
+NSP_Subscription_name  = "sub-mosd-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
 #===============================================================##===============================================================#
