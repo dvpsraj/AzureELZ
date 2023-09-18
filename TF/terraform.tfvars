@@ -6,16 +6,16 @@ Top_level_Mgmt = "PHC"
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "3409bf82-c472-48e0-9c97-6ac7a56d43f2"
-Log_Subscription       = "/subscriptions/3409bf82-c472-48e0-9c97-6ac7a56d43f2"
+Log_Subscription_id    = "6ab41277-b51c-4301-9a53-3ca220737998"
+Log_Subscription       = "/subscriptions/6ab41277-b51c-4301-9a53-3ca220737998"
 Log_Subscription_name = "sub-phc-log-01"
 
-Prod_Subscription_id   = "beb4996a-8124-4f94-ad4c-a0f0ba9bf91b"
-Prod_Subscription      = "/subscriptions/beb4996a-8124-4f94-ad4c-a0f0ba9bf91b"
+Prod_Subscription_id   = "d0765841-891d-4fe4-a686-97085444d260"
+Prod_Subscription      = "/subscriptions/d0765841-891d-4fe4-a686-97085444d260"
 Prod_Subscription_name = "sub-phc-prod-01"
 
-NSP_Subscription_id    = "b9fa7351-5199-493c-89f4-b8f732f9ff44"
-NSP_Subscription       = "/subscriptions/b9fa7351-5199-493c-89f4-b8f732f9ff44"
+NSP_Subscription_id    = "a4b66af1-e5a5-4668-ad5d-dc7e375aad8f"
+NSP_Subscription       = "/subscriptions/a4b66af1-e5a5-4668-ad5d-dc7e375aad8f"
 NSP_Subscription_name  = "sub-phc-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
