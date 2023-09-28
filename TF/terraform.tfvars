@@ -1,22 +1,22 @@
 #===============================================================##===============================================================#
 #Managment Group Names
-Top_level_Mgmt = "Tenant Root Group"
+Top_level_Mgmt = "MOMAA"
 #===============================================================#
 #Location Name
 location = "northeurope"
 #===============================================================#
 #Subscription_id for each managemnt group
-Log_Subscription_id    = "64bbfe02-e37c-41e9-8cff-f2bb7ca6ccbf"
-Log_Subscription       = "/subscriptions/64bbfe02-e37c-41e9-8cff-f2bb7ca6ccbf"
-Log_Subscription_name = "sub-phc-log-01"
+Log_Subscription_id    = "2aee2e6c-97be-4461-a027-3dcc3269ae34"
+Log_Subscription       = "/subscriptions/2aee2e6c-97be-4461-a027-3dcc3269ae34"
+Log_Subscription_name = "sub-momaa-log-01"
 
-Prod_Subscription_id   = "64bbfe02-e37c-41e9-8cff-f2bb7ca6ccbf"
-Prod_Subscription      = "/subscriptions/64bbfe02-e37c-41e9-8cff-f2bb7ca6ccbf"
-Prod_Subscription_name = "sub-phc-prod-01"
+Prod_Subscription_id   = "010b0637-7b42-4cc3-bdbe-8c47070dfe06"
+Prod_Subscription      = "/subscriptions/010b0637-7b42-4cc3-bdbe-8c47070dfe06"
+Prod_Subscription_name = "sub-momaa-prod-01"
 
-NSP_Subscription_id    = "71ca792e-322d-49f5-a8b8-a53c6f728e0e"
-NSP_Subscription       = "/subscriptions/71ca792e-322d-49f5-a8b8-a53c6f728e0e"
-NSP_Subscription_name  = "sub-phc-nsp-01"
+NSP_Subscription_id    = "21bf8e8c-c9c5-4a6c-ab8a-7d6b7f4a10fb"
+NSP_Subscription       = "/subscriptions/21bf8e8c-c9c5-4a6c-ab8a-7d6b7f4a10fb"
+NSP_Subscription_name  = "sub-momaa-nsp-01"
 #===============================================================##===============================================================#
 #Log Analytics Workspace and automation account Names
 #===============================================================##===============================================================#
