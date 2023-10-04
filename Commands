@@ -1,0 +1,10 @@
+#>git clone https://github.com/dvpsraj/AzureELZ.git
+
+#>ls
+#>cd AzureELZ/TF/
+
+#>az login 
+
+#>terraform init
+#>terraform plan
+#>terraform apply --auto-approve
