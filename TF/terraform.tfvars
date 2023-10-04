@@ -8,7 +8,7 @@ location = "northeurope"
 #Subscription_id for each managemnt group
 Log_Subscription_id    = "8cf721aa-29b6-4900-98ba-839ae02618bd"
 Log_Subscription       = "/subscriptions/8cf721aa-29b6-4900-98ba-839ae02618bd"
-Log_Subscription_name = "sub-moh-log-01"
+Log_Subscription_name  = "sub-moh-log-01"
 
 Prod_Subscription_id   = "1069d09a-eeb8-42d7-a93e-8bac27212225"
 Prod_Subscription      = "/subscriptions/1069d09a-eeb8-42d7-a93e-8bac27212225"
